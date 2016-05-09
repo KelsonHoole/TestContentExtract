@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Spinner
+        android:id="@+id/sp_urllist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <cn.hukecn.testcontentextract.view.SuperWebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </cn.hukecn.testcontentextract.view.SuperWebView>
+
+    <Button
+        android:id="@+id/btn_parse"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="测试当前页面抽取效果"/>
+</LinearLayout>

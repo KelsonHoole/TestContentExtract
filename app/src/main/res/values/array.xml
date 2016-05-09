@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="urls">
+    <item>腾讯新闻</item>
+    <item>新浪新闻</item>
+    <item>凤凰新闻</item>
+    <item>CSDN博客</item>
+    <item>新浪博客</item>
+    <item>新浪天气</item>
+    <item>网易新闻</item>
+    <item>百度知道</item>
+    <item>今日头条</item>
+    <item>搜狐财经</item>
+</string-array>
+</resources>
